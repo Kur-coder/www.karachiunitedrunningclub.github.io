@@ -1,98 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Karachi United Running Club (KUR)</title>
   <style>
     body {
-      background-color: white;
-      color: black;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
+      background: linear-gradient(to right, #e3f2fd, #ffffff);
+      color: #333;
     }
-
     header {
-      background-color: black;
+      background: #0d47a1;
       color: white;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+      transform: perspective(600px) rotateX(5deg);
     }
-
     header h1 {
       margin: 0;
-      font-size: 36px;
+      font-size: 2.5rem;
     }
-
-    header p {
-      font-size: 20px;
+    header h2 {
       margin-top: 10px;
+      font-weight: normal;
+      font-size: 1.2rem;
     }
-
+    main {
+      padding: 30px;
+      max-width: 960px;
+      margin: auto;
+    }
     section {
+      background: white;
+      margin: 30px 0;
       padding: 20px;
-      border-bottom: 1px solid #ddd;
-      text-align: center;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      transform: perspective(800px) rotateY(1deg);
+      transition: transform 0.3s ease;
     }
-
-    section img {
+    section:hover {
+      transform: scale(1.02) perspective(800px) rotateY(0deg);
+    }
+    h2 {
+      color: #0d47a1;
+    }
+    p, li {
+      font-size: 1rem;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    img {
+      display: block;
+      margin: 20px auto;
       max-width: 100%;
-      height: auto;
-      margin-top: 15px;
       border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     }
-
-    footer {
-      background-color: #f0f0f0;
-      color: black;
+    .social-links {
       text-align: center;
-      padding: 20px;
+      margin-top: 20px;
     }
-
-    a {
-      color: #000;
+    .social-links a {
+      margin: 0 10px;
+      padding: 12px 20px;
+      border-radius: 30px;
       text-decoration: none;
       font-weight: bold;
+      color: white;
+      display: inline-block;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
-
-    a:hover {
-      color: #444;
-    }
+    .instagram { background: #e1306c; }
+    .facebook { background: #3b5998; }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Karachi United Running Club (KUR)</h1>
-    <p>Nice to see you here! 🏃‍♂️<br>
-       “Push your limits. Run with passion. Be unstoppable.”</p>
-  </header>
+<header>
+  <h1>Karachi United Running Club (KUR)</h1>
+  <h2>Nice to see you here! 👟 Stay active, stay united.</h2>
+</header>
+
+<main>
 
   <section>
-    <h2>About Us</h2>
-    <p>KUR is more than just a running group—it's a community of dreamers, doers, and achievers.</p>
-    <img src="IMG-20250402-WA0025.jpg" alt="KUR Team Photo">
+    <h2>🏃 Welcome to Karachi United Runners</h2>
+    <p>
+      We are more than just a running group — we are a family united by our passion for fitness, discipline, and community.
+      Whether you're a seasoned athlete or a beginner, KUR is your home to grow stronger and run further.
+    </p>
+    <p><strong>“Every step you take is a step toward a stronger you.”</strong></p>
+    <img src="IMG-20250402-WA0025.jpg" alt="Group Pic 1">
   </section>
 
   <section>
-    <h2>Our Vision</h2>
-    <p>To inspire Karachiites to lead healthier, happier lives—one step at a time.</p>
-    <img src="IMG-20250615-WA0017.jpg" alt="Running Session">
+    <h2>🔥 Why Join Us?</h2>
+    <ul>
+      <li>✅ Build stamina and mental toughness</li>
+      <li>✅ Train with experienced runners</li>
+      <li>✅ Weekly group runs and events</li>
+      <li>✅ Stay motivated and consistent</li>
+    </ul>
+    <p><strong>"Discipline is doing it even when you don’t feel like it."</strong></p>
+    <img src="IMG-20250615-WA0017.jpg" alt="Group Pic 2">
+    <img src="IMG-20250504-WA0186.jpg" alt="Group Pic 3">
+    <img src="IMG-20250706-WA0046.jpg" alt="Group Pic 4">
   </section>
 
   <section>
-    <h2>Join Us</h2>
-    <p>We run together every weekend. Whether you're a beginner or a pro, you're welcome!</p>
-    <img src="IMG-20250402-WA0025.jpg" alt="Group Run">
+    <h2>📍 Location & Timing</h2>
+    <p><strong>Location:</strong> Creek Park, DHA Phase 8, Karachi</p>
+    <p><strong>Meetup:</strong> Every Sunday, 5:35 AM</p>
   </section>
 
-  <footer>
-    <h3>Contact Us</h3>
-    <p>📞 WhatsApp: <a href="https://wa.me/923002294499" target="_blank">+92 300 2294499</a></p>
-    <p>📘 Facebook: <a href="https://facebook.com/YourKURPage" target="_blank">fb.com/YourKURPage</a></p>
-    <p>📧 Email: <a href="mailto:contact@kurclub.com">contact@kurclub.com</a></p>
-    <p>&copy; 2025 Karachi United Running Club (KUR)</p>
-  </footer>
+  <section>
+    <h2>📞 Contact & Social</h2>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/923002294499" target="_blank">+92 300 2294499</a></p>
+    <div class="social-links">
+      <a class="instagram" href="https://www.instagram.com/karachiunitedrunners?igsh=c2VqaTQzem80Yms3" target="_blank">Instagram</a>
+      <a class="facebook" href="https://www.facebook.com/karachiunitedrunners" target="_blank">Facebook</a>
+    </div>
+  </section>
+
+</main>
 
 </body>
 </html>
