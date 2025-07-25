@@ -3,184 +3,105 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Karachi United Running Club (KUR) - Join our weekly running group at Creek Park, DHA Phase 8." />
   <title>Karachi United Running Club (KUR)</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #e0f7fa, #e3f2fd);
-      color: #000;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #000000;
     }
     header {
-      background: black;
-      height: 60vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      background: #000000;
       color: white;
+      padding: 20px;
       text-align: center;
     }
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5em;
-    }
-    header p {
-      font-size: 1.2rem;
-      opacity: 0.8;
-    }
-    #content {
-      max-width: 1000px;
-      margin: auto;
-      padding: 40px 20px;
-      background: white;
-      border-radius: 8px;
-    }
-    .card {
-      background: white;
-      margin-bottom: 40px;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .card:hover {
-      transform: translateY(-8px) scale(1.02);
-      box-shadow: 0 12px 24px rgba(0,0,0,0.2);
-    }
-    .card img {
-      width: 100%;
-      display: block;
-      transition: transform 0.3s ease;
-    }
-    .card:hover img {
-      transform: scale(1.05);
-    }
-    .card .content {
+    main {
       padding: 20px;
-      color: #000;
+      max-width: 900px;
+      margin: auto;
+      background: white;
     }
-    .card h2 {
+    section {
+      margin-bottom: 30px;
+    }
+    h1, h2 {
       color: #0d47a1;
-      margin-bottom: 10px;
     }
-    .card p, .card ul {
-      line-height: 1.6;
-    }
-    .group-focus ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    .group-focus li {
-      margin-bottom: 10px;
-      padding-left: 20px;
-      position: relative;
-    }
-    .group-focus li::before {
-      content: '✔';
-      color: #1976d2;
-      position: absolute;
-      left: 0;
-    }
-    .btn-container {
-      display: flex;
-      gap: 15px;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 15px;
-    }
-    .btn {
-      background: #1976d2;
-      color: white;
-      padding: 12px 24px;
-      border-radius: 8px;
-      text-decoration: none;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      transition: background 0.3s ease;
-    }
-    .btn:hover {
-      background: #0d47a1;
+    .info {
+      background: #e3f2fd;
+      padding: 15px;
+      border-left: 5px solid #1976d2;
     }
     footer {
-      background: white;
-      color: #000;
-      padding: 20px;
+      background: #000000;
+      color: white;
       text-align: center;
-      box-shadow: 0 -4px 12px rgba(0,0,0,0.2);
-      margin-top: 40px;
+      padding: 10px;
     }
-    footer a {
-      color: #1976d2;
-      margin: 0 10px;
+    a {
+      color: #0d47a1;
       text-decoration: none;
     }
-    footer a:hover {
+    a:hover {
       text-decoration: underline;
+    }
+    img {
+      max-width: 100%;
+      margin-top: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
   </style>
 </head>
 <body>
-
-<header>
-  <h1>Karachi United Running Club (KUR)</h1>
-  <p>Nice to see you here!</p>
-</header>
-
-<div id="content">
-  <!-- Location Card -->
-  <div class="card">
-    <img src="IMG-20250504-WA0186.jpg" alt="Group running by the sea">
-    <div class="content">
+  <header>
+    <h1>Karachi United Running Club (KUR)</h1>
+    <p>Nice to see you here! Let’s run, connect, and grow together.</p>
+    <p>"Every step counts – Run with passion, finish with pride!"</p>
+  </header>
+  <main>
+    <section>
       <h2>📍 Location</h2>
-      <p>Creek Park, DHA Phase 8, Karachi — enjoy fresh coastal air and scenic morning runs.</p>
-    </div>
-  </div>
-
-  <!-- Schedule Card -->
-  <div class="card">
-    <img src="IMG-20250413-WA0015 - Copy.jpg" alt="Runners celebrating">
-    <div class="content">
-      <h2>⏰ Weekly Schedule</h2>
-      <p>
-        Join us every <strong>Sunday at 5:35 AM</strong> sharp—to kickstart your week with energy, camaraderie, and commitment.
-      </p>
-      <div class="btn-container">
-        <a href="https://wa.me/923002294499" class="btn" target="_blank">Join WhatsApp</a>
-        <a href="https://www.instagram.com/karachiunitedrunner" class="btn" target="_blank">Follow Instagram</a>
-        <a href="mailto:karachiunitedrunner@example.com" class="btn">Email Us</a>
+      <div class="info">
+        <p>Creek Park, DHA Phase 8, Karachi</p>
+        <img src="IMG-20250413-WA0015 - Copy.jpg" alt="Running Location Photo">
       </div>
-    </div>
-  </div>
-
-  <!-- Focus Card -->
-  <div class="card group-focus">
-    <img src="IMG-20250706-WA0046.jpg" alt="Group in park">
-    <div class="content">
+    </section>
+    <section>
+      <h2>⏰ Weekly Schedule</h2>
+      <div class="info">
+        <p>Every Sunday at 5:35 AM sharp</p>
+        <img src="IMG-20250504-WA0186.jpg" alt="Weekly Schedule Photo">
+      </div>
+    </section>
+    <section>
       <h2>🎯 Group Focus</h2>
-      <ul>
-        <li>Push your limits—every step forward is a step toward victory.</li>
-        <li>Together we grow—your pace today might surprise you tomorrow.</li>
-        <li>Run with purpose—fitness, friendship, and fun all in one.</li>
-        <li>Consistency beats talent—show up, shine up, never give up.</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- Final Contact Buttons -->
-  <div class="btn-container">
-    <a href="https://www.facebook.com/groups/483857264387232" class="btn" target="_blank">Join Facebook Group</a>
-    <a href="mailto:karachiunitedrunner@example.com" class="btn">Email Us</a>
-    <a href="https://wa.me/923002294499" class="btn" target="_blank">WhatsApp</a>
-  </div>
-</div>
-
-<footer>
-  <p>Contact us:</p>
-  <a href="https://www.facebook.com/groups/483857264387232" target="_blank">Facebook Group</a> |
-  <a href="https://www.instagram.com/karachiunitedrunner" target="_blank">Instagram</a> |
-  <a href="mailto:karachiunitedrunner@example.com">Email</a>
-  <p>&copy; 2025 Karachi United Runner</p>
-</footer>
-
+      <div class="info">
+        <ul>
+          <li>Beginners – Start your running journey with guidance.</li>
+          <li>Marathon Training – Level up with group-paced long runs.</li>
+          <li>Fun & Fitness – Enjoy fitness with a supportive community.</li>
+          <li>Stay strong, stay fit, and never run alone again!</li>
+        </ul>
+        <img src="IMG-20250706-WA0046.jpg" alt="Group Focus Photo">
+      </div>
+    </section>
+    <section>
+      <h2>📞 Contact & Join Us</h2>
+      <div class="info">
+        <p><strong>Facebook Page:</strong> <a href="https://www.facebook.com/groups/483857264387232" target="_blank">Karachi United Runner (KUR)</a></p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/karachiunitedrunner" target="_blank">@karachiunitedrunner</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/923002294499" target="_blank">+92 300 2294499 - Join WhatsApp Group</a></p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Karachi United Running Club | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
+
